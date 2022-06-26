@@ -1,0 +1,40 @@
+npm run dev
+
+npx tailwindcss init -p
+
+
+  <div className="text-5xl text-violet-300">
+      inline
+      </div>
+      <div className="teste">
+      importado
+      </div>
+
+https://rseat.in/lab-graphcms
+
+
+
+onst GET_LESSONS_QUERY = gql`
+query{
+  lessons{
+    id
+    title
+  }
+}
+`
+
+function App() {
+  
+  const {data} = useQuery(GET_LESSONS_QUERY)
+  
+  console.log(data);
+
+  
+
+
+
+
+svg2jfx - gerar component baseado em svg
+
+
+
